@@ -1,0 +1,45 @@
+trigger:
+  - main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+  - checkout: self
+  - task: NodeTool@0
+    inputs:
+      versionSpec: '20.x'
+    displayName: 'Install Node.js'
+  - script: npm ci
+    displayName: 'Install dependencies'
+  - script: npx playwright install --with-deps
+    displayName: 'Install Playwright Browsers'
+  - script: npx playwright test
+    displayName: 'Run Playwright tests'
+  - script: npx allure generate allure-results --clean -o allure-report
+    displayName: 'Generate Allure HTML Report'
+  - task: PublishBuildArtifacts@1
+    displayName: 'Publish Allure Results'
+    inputs:
+      PathtoPublish: 'allure-results'
+      ArtifactName: 'allure-results'
+  - task: PublishBuildArtifacts@1
+    displayName: 'Publish Screenshots'
+    inputs:
+      PathtoPublish: 'screenshots'
+      ArtifactName: 'screenshots'
+  - task: PublishBuildArtifacts@1
+    displayName: 'Publish Videos'
+    inputs:
+      PathtoPublish: 'videos'
+      ArtifactName: 'videos'
+  - task: PublishBuildArtifacts@1
+    displayName: 'Publish Traces'
+    inputs:
+      PathtoPublish: 'trace'
+      ArtifactName: 'trace'
+  - task: PublishBuildArtifacts@1
+    displayName: 'Publish Allure HTML Report'
+    inputs:
+      PathtoPublish: 'allure-report'
+      ArtifactName: 'allure-report'

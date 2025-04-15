@@ -1,0 +1,305 @@
+[2025-04-15T02:29:40.560Z] [INFO] Starting API test
+[2025-04-15T02:29:40.720Z] [INFO] Starting API test
+[2025-04-15T02:29:41.145Z] [INFO] Starting UI test
+[2025-04-15T02:29:41.148Z] [INFO] Starting E2E test
+[2025-04-15T02:29:41.993Z] [INFO] Navigated to https://playwright.dev
+[2025-04-15T02:29:42.140Z] [ERROR] [FATAL] [2mexpect([22m[31mreceived[39m[2m).[22mtoMatchObject[2m([22m[32mexpected[39m[2m)[22m
+
+[32m- Expected  - 1[39m
+[31m+ Received  + 1[39m
+
+[33m@@ -3,9 +3,9 @@[39m
+[2m      "city": "Rennerside",[22m
+[2m      "street": "7039 South Road",[22m
+[2m      "zip": "25401",[22m
+[2m    },[22m
+[2m    "email": "Delia34@yahoo.com",[22m
+[32m-   "id": 5130,[39m
+[31m+   "id": 11,[39m
+[2m    "name": "Todd Jenkins",[22m
+[2m    "role": "user",[22m
+[2m  }[22m
+[2025-04-15T02:29:42.609Z] [INFO] Performance metrics: {"https://playwright.dev/":0}
+[2025-04-15T02:29:44.781Z] [INFO] Starting E2E test
+[2025-04-15T02:29:45.947Z] [ERROR] [FATAL] [2mexpect([22m[31mreceived[39m[2m).[22mtoMatchObject[2m([22m[32mexpected[39m[2m)[22m
+
+[32m- Expected  - 1[39m
+[31m+ Received  + 1[39m
+
+[33m@@ -3,9 +3,9 @@[39m
+[2m      "city": "Fort Corene",[22m
+[2m      "street": "170 Johnathon Viaduct",[22m
+[2m      "zip": "57980",[22m
+[2m    },[22m
+[2m    "email": "Lourdes94@yahoo.com",[22m
+[32m-   "id": 2446,[39m
+[31m+   "id": 11,[39m
+[2m    "name": "Genevieve Streich",[22m
+[2m    "role": "user",[22m
+[2m  }[22m
+[2025-04-15T02:29:46.148Z] [INFO] Starting API test
+[2025-04-15T02:29:46.485Z] [INFO] Starting UI test
+[2025-04-15T02:29:47.889Z] [INFO] Starting E2E test
+[2025-04-15T02:29:49.107Z] [INFO] Navigated to https://playwright.dev
+[2025-04-15T02:29:49.543Z] [INFO] Starting E2E test
+[2025-04-15T02:29:49.546Z] [INFO] Starting UI test
+[2025-04-15T02:29:49.803Z] [ERROR] [FATAL] [2mexpect([22m[31mreceived[39m[2m).[22mtoMatchObject[2m([22m[32mexpected[39m[2m)[22m
+
+[32m- Expected  - 1[39m
+[31m+ Received  + 1[39m
+
+[33m@@ -3,9 +3,9 @@[39m
+[2m      "city": "Bartlett",[22m
+[2m      "street": "9745 Kertzmann Walks",[22m
+[2m      "zip": "88524",[22m
+[2m    },[22m
+[2m    "email": "Johann_Powlowski-Barton96@yahoo.com",[22m
+[32m-   "id": 1658,[39m
+[31m+   "id": 11,[39m
+[2m    "name": "Orville Grant",[22m
+[2m    "role": "user",[22m
+[2m  }[22m
+[2025-04-15T02:29:49.882Z] [INFO] Performance metrics: {"https://playwright.dev/":0}
+[2025-04-15T02:29:50.800Z] [ERROR] [FATAL] [2mexpect([22m[31mreceived[39m[2m).[22mtoMatchObject[2m([22m[32mexpected[39m[2m)[22m
+
+[32m- Expected  - 1[39m
+[31m+ Received  + 1[39m
+
+[33m@@ -3,9 +3,9 @@[39m
+[2m      "city": "West Darrin",[22m
+[2m      "street": "342 E Center Street",[22m
+[2m      "zip": "97536",[22m
+[2m    },[22m
+[2m    "email": "Dominique.Langosh8@gmail.com",[22m
+[32m-   "id": 1317,[39m
+[31m+   "id": 11,[39m
+[2m    "name": "Jacquelyn DuBuque",[22m
+[2m    "role": "user",[22m
+[2m  }[22m
+[2025-04-15T02:29:51.356Z] [INFO] Navigated to https://playwright.dev
+[2025-04-15T02:29:51.990Z] [INFO] Starting API test
+[2025-04-15T02:29:52.988Z] [INFO] Performance metrics: {"https://playwright.dev/":0}
+[2025-04-15T02:29:53.907Z] [INFO] Starting UI test
+[2025-04-15T02:29:54.564Z] [INFO] Navigated to https://playwright.dev
+[2025-04-15T02:29:55.308Z] [INFO] Starting E2E test
+[2025-04-15T02:29:55.598Z] [INFO] Performance metrics: {"https://playwright.dev/":0}
+[2025-04-15T02:29:56.114Z] [INFO] Starting E2E test
+[2025-04-15T02:29:56.244Z] [INFO] Starting E2E test
+[2025-04-15T02:29:56.603Z] [ERROR] [FATAL] [2mexpect([22m[31mreceived[39m[2m).[22mtoMatchObject[2m([22m[32mexpected[39m[2m)[22m
+
+[32m- Expected  - 1[39m
+[31m+ Received  + 1[39m
+
+[33m@@ -3,9 +3,9 @@[39m
+[2m      "city": "Shannaworth",[22m
+[2m      "street": "2705 Burley Brook",[22m
+[2m      "zip": "89941",[22m
+[2m    },[22m
+[2m    "email": "Ashley_Schoen@yahoo.com",[22m
+[32m-   "id": 4672,[39m
+[31m+   "id": 11,[39m
+[2m    "name": "Judy Cruickshank",[22m
+[2m    "role": "user",[22m
+[2m  }[22m
+[2025-04-15T02:29:57.351Z] [ERROR] [FATAL] [2mexpect([22m[31mreceived[39m[2m).[22mtoMatchObject[2m([22m[32mexpected[39m[2m)[22m
+
+[32m- Expected  - 1[39m
+[31m+ Received  + 1[39m
+
+[33m@@ -3,9 +3,9 @@[39m
+[2m      "city": "Padbergport",[22m
+[2m      "street": "887 Conroy Drives",[22m
+[2m      "zip": "63848-4730",[22m
+[2m    },[22m
+[2m    "email": "Ransom.Gulgowski@gmail.com",[22m
+[32m-   "id": 9040,[39m
+[31m+   "id": 11,[39m
+[2m    "name": "Lynda Shanahan",[22m
+[2m    "role": "user",[22m
+[2m  }[22m
+[2025-04-15T02:29:57.356Z] [ERROR] [FATAL] [2mexpect([22m[31mreceived[39m[2m).[22mtoMatchObject[2m([22m[32mexpected[39m[2m)[22m
+
+[32m- Expected  - 1[39m
+[31m+ Received  + 1[39m
+
+[33m@@ -3,9 +3,9 @@[39m
+[2m      "city": "Brockton",[22m
+[2m      "street": "2088 Second Avenue",[22m
+[2m      "zip": "12684",[22m
+[2m    },[22m
+[2m    "email": "Royce.Bogan5@gmail.com",[22m
+[32m-   "id": 7429,[39m
+[31m+   "id": 11,[39m
+[2m    "name": "Ana Runte",[22m
+[2m    "role": "user",[22m
+[2m  }[22m
+[2025-04-15T02:29:57.491Z] [INFO] Starting API test
+[2025-04-15T02:29:58.393Z] [INFO] Starting E2E test
+[2025-04-15T02:29:59.440Z] [ERROR] [FATAL] [2mexpect([22m[31mreceived[39m[2m).[22mtoMatchObject[2m([22m[32mexpected[39m[2m)[22m
+
+[32m- Expected  - 1[39m
+[31m+ Received  + 1[39m
+
+[33m@@ -3,9 +3,9 @@[39m
+[2m      "city": "Fort Ashleymouth",[22m
+[2m      "street": "25595 County Road",[22m
+[2m      "zip": "03683",[22m
+[2m    },[22m
+[2m    "email": "Jennings60@yahoo.com",[22m
+[32m-   "id": 7719,[39m
+[31m+   "id": 11,[39m
+[2m    "name": "Allison Konopelski",[22m
+[2m    "role": "user",[22m
+[2m  }[22m
+[2025-04-15T02:29:59.643Z] [INFO] Starting UI test
+[2025-04-15T02:30:00.490Z] [INFO] Navigated to https://playwright.dev
+[2025-04-15T02:30:00.599Z] [INFO] Starting E2E test
+[2025-04-15T02:30:01.205Z] [INFO] Performance metrics: {"https://playwright.dev/":0}
+[2025-04-15T02:30:01.578Z] [ERROR] [FATAL] [2mexpect([22m[31mreceived[39m[2m).[22mtoMatchObject[2m([22m[32mexpected[39m[2m)[22m
+
+[32m- Expected  - 1[39m
+[31m+ Received  + 1[39m
+
+[33m@@ -3,9 +3,9 @@[39m
+[2m      "city": "East Dovie",[22m
+[2m      "street": "148 Ericka Lodge",[22m
+[2m      "zip": "79842-3943",[22m
+[2m    },[22m
+[2m    "email": "Elwin.Pacocha69@gmail.com",[22m
+[32m-   "id": 1190,[39m
+[31m+   "id": 11,[39m
+[2m    "name": "Saul Sipes III",[22m
+[2m    "role": "user",[22m
+[2m  }[22m
+[2025-04-15T02:30:02.383Z] [INFO] Starting E2E test
+[2025-04-15T02:30:03.311Z] [ERROR] [FATAL] [2mexpect([22m[31mreceived[39m[2m).[22mtoMatchObject[2m([22m[32mexpected[39m[2m)[22m
+
+[32m- Expected  - 1[39m
+[31m+ Received  + 1[39m
+
+[33m@@ -3,9 +3,9 @@[39m
+[2m      "city": "South Diamond",[22m
+[2m      "street": "99631 State Street",[22m
+[2m      "zip": "58542",[22m
+[2m    },[22m
+[2m    "email": "Lexus.OConnell86@gmail.com",[22m
+[32m-   "id": 3048,[39m
+[31m+   "id": 11,[39m
+[2m    "name": "Aaron Morissette",[22m
+[2m    "role": "user",[22m
+[2m  }[22m
+[2025-04-15T02:30:29.529Z] [INFO] Starting UI test
+[2025-04-15T02:30:29.822Z] [INFO] Starting API test
+[2025-04-15T02:30:29.918Z] [INFO] Starting API test
+[2025-04-15T02:30:30.039Z] [INFO] Starting E2E test
+[2025-04-15T02:30:30.357Z] [INFO] Navigated to https://playwright.dev
+[2025-04-15T02:30:30.733Z] [INFO] Performance metrics: {"https://playwright.dev/":0}
+[2025-04-15T02:30:31.946Z] [INFO] Navigated to https://playwright.dev
+[2025-04-15T02:30:32.031Z] [INFO] Performance metrics: {"https://playwright.dev/":0}
+[2025-04-15T02:30:33.246Z] [INFO] Starting UI test
+[2025-04-15T02:30:35.093Z] [INFO] Navigated to https://playwright.dev
+[2025-04-15T02:30:35.163Z] [INFO] Starting E2E test
+[2025-04-15T02:30:35.711Z] [INFO] Performance metrics: {"https://playwright.dev/":0}
+[2025-04-15T02:30:36.023Z] [INFO] Starting API test
+[2025-04-15T02:30:36.568Z] [INFO] Starting UI test
+[2025-04-15T02:30:37.109Z] [INFO] Starting E2E test
+[2025-04-15T02:30:37.514Z] [INFO] Starting API test
+[2025-04-15T02:30:37.639Z] [INFO] Navigated to https://playwright.dev
+[2025-04-15T02:30:37.748Z] [INFO] Performance metrics: {"https://playwright.dev/":0}
+[2025-04-15T02:30:38.669Z] [INFO] Navigated to https://playwright.dev
+[2025-04-15T02:30:39.553Z] [INFO] Navigated to https://playwright.dev
+[2025-04-15T02:30:39.693Z] [INFO] Performance metrics: {"https://playwright.dev/":0}
+[2025-04-15T02:30:40.670Z] [INFO] Performance metrics: {"https://playwright.dev/":0}
+[2025-04-15T02:30:41.491Z] [INFO] Starting UI test
+[2025-04-15T02:30:42.293Z] [INFO] Starting E2E test
+[2025-04-15T02:30:42.304Z] [INFO] Navigated to https://playwright.dev
+[2025-04-15T02:30:43.017Z] [INFO] Starting E2E test
+[2025-04-15T02:30:43.146Z] [INFO] Performance metrics: {"https://playwright.dev/":0}
+[2025-04-15T02:30:43.508Z] [INFO] Starting API test
+[2025-04-15T02:30:43.998Z] [INFO] Starting UI test
+[2025-04-15T02:30:44.010Z] [INFO] Navigated to https://playwright.dev
+[2025-04-15T02:30:44.058Z] [INFO] Performance metrics: {"https://playwright.dev/":0}
+[2025-04-15T02:30:44.832Z] [INFO] Navigated to https://playwright.dev
+[2025-04-15T02:30:44.928Z] [INFO] Navigated to https://playwright.dev
+[2025-04-15T02:30:44.932Z] [INFO] Performance metrics: {"https://playwright.dev/":0}
+[2025-04-15T02:30:45.636Z] [INFO] Performance metrics: {"https://playwright.dev/":0}
+[2025-04-15T02:34:07.334Z] [INFO] Starting UI test
+[2025-04-15T02:34:07.692Z] [INFO] Starting API test
+[2025-04-15T02:34:07.716Z] [INFO] Starting API test
+[2025-04-15T02:34:07.752Z] [INFO] Starting E2E test
+[2025-04-15T02:34:07.940Z] [INFO] Navigated to https://playwright.dev
+[2025-04-15T02:34:08.249Z] [INFO] Screenshot saved at: D:\PlaywrightFramework\screenshots\2025-04-15_02-34-08\Full_UI_framework_demo__smoke__ui.png
+[2025-04-15T02:34:08.262Z] [INFO] Performance metrics: {"https://playwright.dev/":0}
+[2025-04-15T02:34:09.299Z] [INFO] Navigated to https://playwright.dev
+[2025-04-15T02:34:09.405Z] [INFO] Performance metrics: {"https://playwright.dev/":0}
+[2025-04-15T02:34:10.179Z] [INFO] Starting UI test
+[2025-04-15T02:34:11.596Z] [INFO] Starting E2E test
+[2025-04-15T02:34:11.693Z] [INFO] Navigated to https://playwright.dev
+[2025-04-15T02:34:12.217Z] [INFO] Screenshot saved at: D:\PlaywrightFramework\screenshots\2025-04-15_02-34-11\Full_UI_framework_demo__smoke__ui.png
+[2025-04-15T02:34:12.251Z] [INFO] Performance metrics: {"https://playwright.dev/":0}
+[2025-04-15T02:34:12.512Z] [INFO] Starting API test
+[2025-04-15T02:34:13.198Z] [INFO] Starting UI test
+[2025-04-15T02:34:13.799Z] [INFO] Navigated to https://playwright.dev
+[2025-04-15T02:34:13.883Z] [INFO] Performance metrics: {"https://playwright.dev/":0}
+[2025-04-15T02:34:13.951Z] [INFO] Starting E2E test
+[2025-04-15T02:34:14.443Z] [INFO] Starting API test
+[2025-04-15T02:34:14.787Z] [INFO] Navigated to https://playwright.dev
+[2025-04-15T02:34:16.211Z] [INFO] Navigated to https://playwright.dev
+[2025-04-15T02:34:16.260Z] [INFO] Screenshot saved at: D:\PlaywrightFramework\screenshots\2025-04-15_02-34-14\Full_UI_framework_demo__smoke__ui.png
+[2025-04-15T02:34:16.284Z] [INFO] Performance metrics: {"https://playwright.dev/":0}
+[2025-04-15T02:34:16.328Z] [INFO] Performance metrics: {"https://playwright.dev/":0}
+[2025-04-15T02:34:17.218Z] [INFO] Starting UI test
+[2025-04-15T02:34:17.759Z] [INFO] Navigated to https://playwright.dev
+[2025-04-15T02:34:18.079Z] [INFO] Starting E2E test
+[2025-04-15T02:34:18.463Z] [INFO] Screenshot saved at: D:\PlaywrightFramework\screenshots\2025-04-15_02-34-17\Full_UI_framework_demo__smoke__ui.png
+[2025-04-15T02:34:18.481Z] [INFO] Performance metrics: {"https://playwright.dev/":0}
+[2025-04-15T02:34:18.728Z] [INFO] Starting API test
+[2025-04-15T02:34:18.923Z] [INFO] Starting E2E test
+[2025-04-15T02:34:19.422Z] [INFO] Navigated to https://playwright.dev
+[2025-04-15T02:34:19.480Z] [INFO] Performance metrics: {"https://playwright.dev/":0}
+[2025-04-15T02:34:19.538Z] [INFO] Starting UI test
+[2025-04-15T02:34:20.334Z] [INFO] Navigated to https://playwright.dev
+[2025-04-15T02:34:20.415Z] [INFO] Navigated to https://playwright.dev
+[2025-04-15T02:34:20.481Z] [INFO] Performance metrics: {"https://playwright.dev/":0}
+[2025-04-15T02:34:20.927Z] [INFO] Screenshot saved at: D:\PlaywrightFramework\screenshots\2025-04-15_02-34-20\Full_UI_framework_demo__smoke__ui.png
+[2025-04-15T02:34:20.939Z] [INFO] Performance metrics: {"https://playwright.dev/":0}
+[2025-04-15T03:56:14.830Z] [INFO] Starting UI test
+[2025-04-15T03:56:14.966Z] [INFO] Starting API test
+[2025-04-15T03:56:15.083Z] [INFO] Starting API test
+[2025-04-15T03:56:15.234Z] [INFO] Starting E2E test
+[2025-04-15T03:56:15.561Z] [INFO] Navigated to https://playwright.dev
+[2025-04-15T03:56:16.101Z] [INFO] Screenshot saved at: D:\PlaywrightFramework\screenshots\2025-04-15_03-56-15\Full_UI_framework_demo__smoke__ui.png
+[2025-04-15T03:56:16.116Z] [INFO] Performance metrics: {"https://playwright.dev/":0}
+[2025-04-15T03:56:16.961Z] [INFO] Navigated to https://playwright.dev
+[2025-04-15T03:56:17.019Z] [INFO] Performance metrics: {"https://playwright.dev/":0}
+[2025-04-15T03:56:19.461Z] [INFO] Starting UI test
+[2025-04-15T03:56:21.856Z] [INFO] Starting API test
+[2025-04-15T03:56:22.329Z] [INFO] Navigated to https://playwright.dev
+[2025-04-15T03:56:22.349Z] [INFO] Starting E2E test
+[2025-04-15T03:56:23.447Z] [INFO] Screenshot saved at: D:\PlaywrightFramework\screenshots\2025-04-15_03-56-22\Full_UI_framework_demo__smoke__ui.png
+[2025-04-15T03:56:23.499Z] [INFO] Performance metrics: {"https://playwright.dev/":0}
+[2025-04-15T03:56:24.067Z] [INFO] Starting E2E test
+[2025-04-15T03:56:24.068Z] [INFO] Starting UI test
+[2025-04-15T03:56:24.467Z] [INFO] Starting API test
+[2025-04-15T03:56:25.426Z] [INFO] Navigated to https://playwright.dev
+[2025-04-15T03:56:25.769Z] [INFO] Performance metrics: {"https://playwright.dev/":0}
+[2025-04-15T03:56:26.908Z] [INFO] Navigated to https://playwright.dev
+[2025-04-15T03:56:27.308Z] [INFO] Navigated to https://playwright.dev
+[2025-04-15T03:56:27.484Z] [INFO] Performance metrics: {"https://playwright.dev/":0}
+[2025-04-15T03:56:28.915Z] [INFO] Screenshot saved at: D:\PlaywrightFramework\screenshots\2025-04-15_03-56-27\Full_UI_framework_demo__smoke__ui.png
+[2025-04-15T03:56:29.020Z] [INFO] Performance metrics: {"https://playwright.dev/":0}
+[2025-04-15T03:56:29.787Z] [INFO] Starting E2E test
+[2025-04-15T03:56:30.458Z] [INFO] Starting UI test
+[2025-04-15T03:56:30.575Z] [INFO] Starting API test
+[2025-04-15T03:56:31.013Z] [INFO] Navigated to https://playwright.dev
+[2025-04-15T03:56:31.152Z] [INFO] Navigated to https://playwright.dev
+[2025-04-15T03:56:31.207Z] [INFO] Performance metrics: {"https://playwright.dev/":0}
+[2025-04-15T03:56:31.935Z] [INFO] Screenshot saved at: D:\PlaywrightFramework\screenshots\2025-04-15_03-56-31\Full_UI_framework_demo__smoke__ui.png
+[2025-04-15T03:56:31.967Z] [INFO] Performance metrics: {"https://playwright.dev/":0}
+[2025-04-15T03:56:32.846Z] [INFO] Starting E2E test
+[2025-04-15T03:56:32.853Z] [INFO] Starting UI test
+[2025-04-15T03:56:33.553Z] [INFO] Navigated to https://playwright.dev
+[2025-04-15T03:56:34.197Z] [INFO] Screenshot saved at: D:\PlaywrightFramework\screenshots\2025-04-15_03-56-33\Full_UI_framework_demo__smoke__ui.png
+[2025-04-15T03:56:34.278Z] [INFO] Performance metrics: {"https://playwright.dev/":0}
+[2025-04-15T03:56:34.449Z] [INFO] Navigated to https://playwright.dev
+[2025-04-15T03:56:34.508Z] [INFO] Performance metrics: {"https://playwright.dev/":0}

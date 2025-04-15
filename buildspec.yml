@@ -1,0 +1,21 @@
+version: 0.2
+phases:
+  install:
+    runtime-versions:
+      nodejs: 20
+    commands:
+      - npm ci
+      - npx playwright install --with-deps
+  build:
+    commands:
+      - npx playwright test
+  post_build:
+    commands:
+      - npx allure generate allure-results --clean -o allure-report
+artifacts:
+  files:
+    - allure-results/**/*
+    - allure-report/**/*
+    - screenshots/**/*
+    - videos/**/*
+    - trace/**/*
