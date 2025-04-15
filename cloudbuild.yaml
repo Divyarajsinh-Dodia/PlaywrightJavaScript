@@ -8,6 +8,7 @@ steps:
         npx playwright install --with-deps
         npx playwright test
         npx allure generate allure-results --clean -o allure-report
+        node utils/reporting/summaryReport.js
 artifacts:
   objects:
     location: 'gs://$PROJECT_ID-playwright-artifacts/'
@@ -17,3 +18,5 @@ artifacts:
       - screenshots/**
       - videos/**
       - trace**
+      - test-results/**
+      - logs/**
